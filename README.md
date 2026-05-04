@@ -172,11 +172,14 @@ clean:
 <td><a href="benchmark_result/x64/ZHAOXIN_KX_6640MA.md">ZHAOXIN KX-6640MA</a></td>
 </tr>
 <tr>
-<td rowspan="12">arm64</td>
+<td rowspan="13">arm64</td>
 <td><a href="benchmark_result/arm64/Apple_Silicon_M4_Max.md">Apple Silicon M4 Max</a></td>
 </tr>
 <tr>
 <td><a href="benchmark_result/arm64/Apple_Silicon_M2_Max.md">Apple Silicon M2 Max</a></td>
+</tr>
+<tr>
+<td><a href="benchmark_result/arm64/Qualcomm_Snapdragon_8_Gen5.md">Qualcomm Snapdragon 8 Gen5</a></td>
 </tr>
 <tr>
 <td><a href="benchmark_result/arm64/Qualcomm_Snapdragon_X_Elite_X1E80100.md">Qualcomm Snapdragon X Elite X1E80100</a></td>
