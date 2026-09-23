@@ -42,6 +42,7 @@ vector_vfmacc_vf_f16f16f16:
     vxor.vv v24, v24, v24
 .vector.vfmacc.vf.f16f16f16.L1:
     vsetvli x7, x0, e16, m1
+    vfmacc.vf v8, f0, v1
     vfmacc.vf v9, f0, v1
     vfmacc.vf v10, f0, v1
     vfmacc.vf v11, f0, v1
@@ -129,6 +130,7 @@ vector_vfmacc_vf_f32f32f32:
     vxor.vv v24, v24, v24
 .vector.vfmacc.vf.f32f32f32.L1:
     vsetvli x7, x0, e32, m1
+    vfmacc.vf v8, f0, v1
     vfmacc.vf v9, f0, v1
     vfmacc.vf v10, f0, v1
     vfmacc.vf v11, f0, v1
@@ -216,6 +218,7 @@ vector_vfmacc_vf_f64f64f64:
     vxor.vv v24, v24, v24
 .vector.vfmacc.vf.f64f64f64.L1:
     vsetvli x7, x0, e64, m1
+    vfmacc.vf v8, f0, v1
     vfmacc.vf v9, f0, v1
     vfmacc.vf v10, f0, v1
     vfmacc.vf v11, f0, v1
